@@ -31,4 +31,4 @@ Abre `limpieza_libro.ipynb` en VS Code o Jupyter, selecciona el kernel de `.venv
 
 ## Libro
 
-`libro.txt` — *[El sombrero de tres picos]*, de *[Pedro Antonio de Alarcón]*. Fuente: [Project Gutenberg](https://www.gutenberg.org/).
+`libro.txt` — *El sombrero de tres picos*, de *Pedro Antonio de Alarcón*. Fuente: Project Gutenberg(https://www.gutenberg.org/).
