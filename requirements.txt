@@ -1,0 +1,5 @@
+spacy==3.8.16
+nltk==3.10.3
+pandas==3.0.5
+ipykernel==7.4.0
+es_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl
