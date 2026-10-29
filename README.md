@@ -1,18 +1,20 @@
-# Normalización y Lematización de un libro
+# Normalización, lematización y vectorización de un libro
 
-Checkpoint 3 de Procesamiento de Lenguaje Natural (Hybridge).
+Checkpoints 3 y 4 de Procesamiento de Lenguaje Natural (Hybridge).
 
-Pipeline de limpieza de texto en español aplicado a un libro completo: carga con reparación de codificación, limpieza con regex, tokenización, eliminación de stopwords, lematización con spaCy y comparativa contra stemming de NLTK.
+- **Checkpoint 3: limpieza.** Pipeline de texto en español aplicado a un libro completo: carga con reparación de codificación, limpieza con regex, tokenización, eliminación de stopwords, lematización con spaCy y comparativa contra stemming de NLTK.
+- **Checkpoint 4: representación vectorial.** Bag-of-Words (`CountVectorizer`) y TF-IDF (`TfidfVectorizer`) sobre las oraciones del libro, TF-IDF y similitud coseno entre capítulos, y reducción a 3D con PCA para comparar ambos espacios.
 
 ## Estructura
 
 ```
-├── limpieza_libro.ipynb   # Desarrollo de la limpieza
+├── limpieza_libro.ipynb   # Limpieza (secciones 1-8) y vectorización (9-13)
 ├── libro.txt              # Libro a procesar
 ├── requirements.txt       # Dependencias congeladas
 └── salida/                # Se genera al ejecutar el notebook
     ├── corpus_lematizado.txt
-    └── frecuencias.csv
+    ├── frecuencias.csv
+    └── espacio_vectorial_3d.png
 ```
 
 ## Cómo ejecutarlo
